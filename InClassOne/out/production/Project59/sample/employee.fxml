@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1024.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Employee">
+   <children>
+      <TextArea fx:id="myTaskDesk" layoutX="24.0" layoutY="97.0" prefHeight="548.0" prefWidth="485.0" />
+      <TextArea fx:id="myEmailDesk" layoutX="534.0" layoutY="109.0" prefHeight="140.0" prefWidth="329.0" />
+      <Label fx:id="projectName" alignment="CENTER" contentDisplay="TOP" layoutX="232.0" layoutY="14.0" prefHeight="36.0" prefWidth="576.0" text="Project Name" textAlignment="CENTER" textFill="#e80a0a">
+         <font>
+            <Font name="System Bold" size="30.0" />
+         </font>
+      </Label>
+      <Label layoutX="24.0" layoutY="73.0" prefHeight="16.0" prefWidth="112.0" text="My Desk" />
+      <Label layoutX="534.0" layoutY="89.0" text="Email Checking Desk" />
+      <Button fx:id="reloadEmail" layoutX="801.0" layoutY="76.0" mnemonicParsing="false" onMouseClicked="#reloadFunction" text="Reload" />
+      <Button fx:id="sendEmailButton" layoutX="872.0" layoutY="136.0" mnemonicParsing="false" onMouseClicked="#SendEmail" text="Send A Massage" />
+      <Button fx:id="saveTask" layoutX="335.0" layoutY="651.0" mnemonicParsing="false" onMouseClicked="#saveFunction" text="Save" />
+      <Button fx:id="sendAdmin" layoutX="422.0" layoutY="651.0" mnemonicParsing="false" onMouseClicked="#sendFunction" text="Send Admin" />
+      <Button fx:id="backButton" layoutX="24.0" layoutY="18.0" mnemonicParsing="false" onMouseClicked="#goBack" text="&lt;&lt;Back" />
+      <Label layoutX="689.0" layoutY="268.0" prefHeight="30.0" prefWidth="137.0" text="My File List">
+         <font>
+            <Font size="20.0" />
+         </font></Label>
+      <ListView fx:id="listView" layoutX="586.0" layoutY="298.0" prefHeight="321.0" prefWidth="329.0" />
+      <Button fx:id="open" layoutX="733.0" layoutY="632.0" mnemonicParsing="false" onMouseClicked="#openButton" prefHeight="26.0" prefWidth="72.0" text="OPEN" />
+      <Button fx:id="deleteMail" layoutX="892.0" layoutY="187.0" mnemonicParsing="false" onMouseClicked="#delteAllEmail" text="Delete All " />
+   </children>
+</AnchorPane>

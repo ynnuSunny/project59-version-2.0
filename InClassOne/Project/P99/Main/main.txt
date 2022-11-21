@@ -1,0 +1,43 @@
+String ad =Address + "/" + userName + "/"+"versionList.txt";
+        try {
+            myProjectList(ad);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+Yes Dude
+#include<stdio.h>
+
+struct ditactance
+{
+    float feet;
+    float inch;
+};
+
+int main(){
+    struct ditactance dis;
+    printf("Enter feet : ");
+    scanf("%f",&dis.feet);
+    printf("Enter inch : ");
+    scanf("%f",&dis.inch);
+    printf("%f feet",dis.feet+(dis.inch)/12.0);
+
+}
+
+
+to = employee2Level.getText();
+        from = adminName;
+        address = mainAddress;
+        AnchorPane secondaryLayout = FXMLLoader.load(getClass().getResource("email.fxml"));
+
+
+        Scene secondScene = new Scene(secondaryLayout);
+
+        // New window (Stage)
+        Stage newWindow = new Stage();
+        newWindow.setTitle("Email");
+        newWindow.setScene(secondScene);
+
+        // Set position of second window, related to primary window.
+
+
+        newWindow.show();

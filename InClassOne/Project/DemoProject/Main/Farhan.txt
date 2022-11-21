@@ -1,0 +1,8 @@
+char pop(){
+     if(top>=0){
+       top--;
+    }
+    else cout<<"There is no item"<<endl;
+
+    return a[top];
+}

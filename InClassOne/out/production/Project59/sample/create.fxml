@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="386.0" prefWidth="562.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Create">
+   <children>
+      <Label layoutX="191.0" layoutY="23.0" prefHeight="26.0" prefWidth="277.0" text="Create A New Account">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Label>
+      <TextField fx:id="userName" layoutX="233.0" layoutY="92.0" prefHeight="26.0" prefWidth="171.0" promptText="\@abcd" />
+      <TextField fx:id="email" layoutX="233.0" layoutY="134.0" />
+      <PasswordField fx:id="password" layoutX="233.0" layoutY="180.0" />
+      <Label layoutX="139.0" layoutY="97.0" prefHeight="16.0" prefWidth="89.0" text="User Name" />
+      <Label layoutX="170.0" layoutY="139.0" prefHeight="16.0" prefWidth="43.0" text="Email" />
+      <Label layoutX="146.0" layoutY="185.0" prefHeight="16.0" prefWidth="76.0" text="Password" />
+      <Button fx:id="createButton" layoutX="206.0" layoutY="286.0" mnemonicParsing="false" onMouseClicked="#goSttrings" prefHeight="26.0" prefWidth="151.0" text="Create Account" />
+      <Label fx:id="goBeck" layoutX="196.0" layoutY="336.0" onMouseClicked="#goLoginPage" text="Already Have an Account?" textFill="#02d916" />
+      <Label fx:id="massages" layoutX="176.0" layoutY="263.0" prefHeight="16.0" prefWidth="240.0" textAlignment="CENTER" textFill="#f20808" />
+      <PasswordField fx:id="rePassword" layoutX="233.0" layoutY="223.0" />
+      <Label layoutX="95.0" layoutY="228.0" prefHeight="16.0" prefWidth="127.0" text="Re-Type Password" />
+   </children>
+</AnchorPane>

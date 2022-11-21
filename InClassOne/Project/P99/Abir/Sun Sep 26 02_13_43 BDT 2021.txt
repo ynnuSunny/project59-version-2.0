@@ -1,0 +1,6 @@
+while ((s=bufferedReader.readLine())!=null){
+            data.add(s);
+        }
+        bufferedReader.close();
+        fileReader.close();
+        listView.getItems().addAll(data);

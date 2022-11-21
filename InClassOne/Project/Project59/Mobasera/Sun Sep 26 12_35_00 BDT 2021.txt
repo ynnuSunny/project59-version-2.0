@@ -1,0 +1,20 @@
+void dfs(){
+   int i = 0;
+    push(vertexName[i]);
+    while(top!=0){
+        char ch = pop();
+        checkAdjecency(ch);
+        if(isVisited(ch)==false){
+            visit(ch);
+        }
+        if(i<numberOfVertex && top==0){
+            push(vertexName[i]);
+            i++;
+            if(maxSum>sum){
+                input();
+            }
+              sum = 0;
+        }
+
+    }
+}

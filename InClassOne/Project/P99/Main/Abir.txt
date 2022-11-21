@@ -1,0 +1,17 @@
+to = employee2Level.getText();
+        from = adminName;
+        address = mainAddress;
+        AnchorPane secondaryLayout = FXMLLoader.load(getClass().getResource("email.fxml"));
+
+
+        Scene secondScene = new Scene(secondaryLayout);
+
+        // New window (Stage)
+        Stage newWindow = new Stage();
+        newWindow.setTitle("Email");
+        newWindow.setScene(secondScene);
+
+        // Set position of second window, related to primary window.
+
+
+        newWindow.show();

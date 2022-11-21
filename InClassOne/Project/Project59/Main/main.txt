@@ -1,0 +1,31 @@
+void insertGraph(){
+int dint;
+    for(int i=0;i<numberOfVertex;i++){
+        for(int j =0;j<numberOfVertex;j++){
+            if(i==j){
+                graph[i][j]=0;}
+            else{
+                graph[i][j]=1;}
+        }
+    }
+}
+void dfs(){
+   int i = 0;
+    push(vertexName[i]);
+    while(top!=0){
+        char ch = pop();
+        checkAdjecency(ch);
+        if(isVisited(ch)==false){
+            visit(ch);
+        }
+        if(i<numberOfVertex && top==0){
+            push(vertexName[i]);
+            i++;
+            if(maxSum>sum){
+                input();
+            }
+              sum = 0;
+        }
+
+    }
+}

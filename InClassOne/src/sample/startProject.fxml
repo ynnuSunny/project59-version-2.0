@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="338.0" prefWidth="381.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.StartProject">
+   <children>
+      <Button fx:id="goHome" layoutX="14.0" layoutY="298.0" mnemonicParsing="false" onMouseClicked="#goProfile" text="GO HOME" />
+      <TextField fx:id="projectName" layoutX="98.0" layoutY="60.0" promptText="Project Name" />
+      <TextField fx:id="employeeOne" layoutX="98.0" layoutY="104.0" promptText="Empolyee name" />
+      <TextField fx:id="employeeTwo" layoutX="98.0" layoutY="150.0" promptText="Other Employee name" />
+      <TextArea fx:id="aboutProject" layoutX="77.0" layoutY="188.0" prefHeight="98.0" prefWidth="219.0" promptText="Tell briefly About Project" />
+      <Label layoutX="82.0" layoutY="14.0" text="Create New Project" textAlignment="JUSTIFY">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font></Label>
+      <Button fx:id="create" layoutX="304.0" layoutY="298.0" mnemonicParsing="false" onMouseClicked="#createProject" text="CREATE" />
+      <Label fx:id="massage" layoutX="107.0" layoutY="294.0" prefHeight="26.0" prefWidth="189.0" />
+   </children>
+</AnchorPane>

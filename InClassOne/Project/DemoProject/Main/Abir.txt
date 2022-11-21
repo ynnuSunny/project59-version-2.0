@@ -1,0 +1,7 @@
+void push(char item){
+    if(top<size){
+       a[top] = item;
+       top++;
+    }
+    else cout<<"Need dinamic array list"<<endl;
+}

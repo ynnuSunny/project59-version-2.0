@@ -1,0 +1,19 @@
+#include<stdio.h>
+
+struct ditactance
+{
+    float feet;
+    float inch;
+};
+
+int main(){
+    struct ditactance dis;
+    printf("Enter feet : ");
+    scanf("%f",&dis.feet);
+    printf("Enter inch : ");
+    scanf("%f",&dis.inch);
+    printf("%f feet",dis.feet+(dis.inch)/12.0);
+
+}
+
+

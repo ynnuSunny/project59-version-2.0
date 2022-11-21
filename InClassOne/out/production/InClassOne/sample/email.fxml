@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="212.0" prefWidth="343.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Email">
+   <children>
+      <Label fx:id="to" layoutX="14.0" layoutY="6.0" prefHeight="16.0" prefWidth="278.0" text="To : " />
+      <TextArea fx:id="emilWrite" layoutX="11.0" layoutY="48.0" prefHeight="116.0" prefWidth="321.0" />
+      <Button fx:id="sendButton" layoutX="278.0" layoutY="172.0" mnemonicParsing="false" onMouseClicked="#sendFunction" text="Send" />
+      <Label fx:id="from" layoutX="14.0" layoutY="22.0" prefHeight="16.0" prefWidth="297.0" text="From:" />
+      <Label fx:id="massage" layoutX="27.0" layoutY="177.0" prefHeight="16.0" prefWidth="221.0" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,6 @@
+No Email Exist
+[Date    : Sun Sep 26 11:58:35 BDT 2021
+Send By : Admin
+Email Body : 
+Make Function for delete Item.
+End.]

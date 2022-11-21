@@ -1,0 +1,5 @@
+[Date    : Sun Sep 26 12:31:29 BDT 2021
+Send By : Admin
+Email Body : 
+Make A function for Graph Insert.
+End.]

@@ -1,0 +1,13 @@
+public void sendFunction(MouseEvent mouseEvent) throws IOException {
+        if(emilWrite.getText().isEmpty()){
+            massage.setText("Text Area Is empty!");
+        }
+        else {
+            FileWriter fileWriter = new FileWriter(address + recever + "/email.txt");
+            BufferedWriter bufferedWriter = new BufferedWriter(fileWriter);
+            bufferedWriter.write(emilWrite.getText());
+            bufferedWriter.close();
+            fileWriter.close();
+            massage.setText("Send SuccessFully");
+        }
+    }

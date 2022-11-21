@@ -1,0 +1,18 @@
+void checkAdjecency(char ch){  
+    for(int i=0;i<numberOfVertex;i++){
+      if(vertexName[i]==ch){
+        for(int j=0;j<numberOfVertex;j++){
+           if(graph[i][j]==1){
+             if(isVisited(vertexName[j])==false){
+                if(sum<wight){
+                   sum += item[j];
+                   push(vertexName[j]);
+                }
+             }
+
+           }
+        }
+        break;
+      }
+    }
+}
